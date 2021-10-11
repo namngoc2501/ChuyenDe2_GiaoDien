@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doannhom6">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DoAnNhom6">
+        <activity android:name=".NguoiXuLyHoaDon.NguoiXuLyHoaDon_ManHinhChinh">
+
+        </activity>
+        <activity android:name=".NguoiXuLyHoaDon.NguoiXuLyHoaDon_DanhSachDonHangDaXuLy">
+
+        </activity>
+        <activity android:name=".NguoiXuLyHoaDon.NguoiXuLyHoaDon_ManHinhDanhSachDonHangChoXuLy">
+
+        </activity>
+        <activity android:name=".NguoiXuLyHoaDon.NguoiXuLyHoaDon_ManHinhChiTietDonHang">
+
+        </activity>
+        <activity android:name=".ChuCuaHang.ChuCuaHang_ManHinhThongKeDanhGiaKhachHang">
+
+        </activity>
+        <activity android:name=".ChuCuaHang.ChuCuaHang_ManHinhThongKeTienTraDVVC">
+
+        </activity>
+        <activity android:name=".ChuCuaHang.ChuCuaHang_ManHinhThongKeDonHang">
+
+        </activity>
+        <activity android:name=".ChuCuaHang.ChuCuaHang_ManHinhThongKeKho">
+
+        </activity>
+        <activity android:name=".ChuCuaHang.ChuCuaHang_ManHinhThongKeDanhGiaXau">
+
+        </activity>
+        <activity android:name=".ChuCuaHang.ChuCuaHang_ManHinhThongKeDanhGiaTot">
+
+        </activity>
+        <activity android:name=".ChuCuaHang.ChuCuaHang_ManHinhThongKeDoanhThu">
+
+        </activity>
+        <activity android:name=".ChuCuaHang.ChuCuaHang_ManHinhDoanhThu">
+
+        </activity>
+        <activity android:name=".ChuCuaHang.ChuCuaHang_ManHinhChinh">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChuCuaHang.ChuCuaHang_ManHinhThongKeDonHangBiHuy">
+
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
